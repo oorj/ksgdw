@@ -16,7 +16,7 @@ header .bg.active{
     width: 100%;
     border-bottom: 1px solid #ccc;
 }
-
+.close{display: none;}
 .m-sub{background: #f5f5f5;}
 header .inner{
     position: fixed; 
@@ -41,7 +41,7 @@ header .logo{
     margin-left: 152px;
     width: 180px;
     height: 50px;
-    z-index: 3;
+    z-index: 2;
 }
 header .logo > a{
     display: block;
@@ -49,8 +49,7 @@ header .logo > a{
     height: 45px; 
     background: url(../img/logo.png) no-repeat center/contain;
 }
-.m-gnb{display: none;}
-.m-gnb.on{display: block;}
+
 header .gnb{
     position: absolute;
     top: 50%;
@@ -183,6 +182,8 @@ header .util .wish span{
     text-align: center;
     color: white;
 }
+.m-wish{display: none;}
+.m-logo{display: none;}
 header .util .wish img{width: 30px; height: 30px;}
 .sw{width: 95%; margin-top: 100px;}
 .swiper {

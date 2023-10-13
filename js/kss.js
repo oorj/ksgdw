@@ -96,18 +96,16 @@ $(function(){
 $(function(){
     $('.mobile').on('click', function(){
         $('.mob').addClass('on')
-        $(this).addClass('on')
         $('.m-gnb').addClass('on')
         $('.logo').addClass('on')
+        $('.m-close').addClass('on')
     })
     
-    $('.close').on('click', function(){
+    $('.m-close').on('click', function(){
         $('.m-gnb').removeClass('on')
         $(this).removeClass('on')
-        $('.mobile').removeClass('on')
+        $('.mob').removeClass('on')
         $('.lng').removeClass('on')
-        $('.heart').removeClass('on')
-        $('.mobile-se').removeClass('on')
     })
 })
 /* 사이드메뉴 */

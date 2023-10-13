@@ -364,7 +364,7 @@ header .gnb > ul ul{padding: 0; top: 50px;}
 #main01 .view .right .color p{font-size: 14px;}
 #main01 .view .more{bottom: -2%; right: 20px; font-size: 14px;}
 
-#main02 .main2{padding: 80px 0; margin-top: 80px;}
+#main02 .main2{padding: 35px 0; margin-top: 80px;}
 #main02 .main2 .title h2{font-size: 50px;}
 #main02 .main2 .title p{font-size: 16px; margin: 15px 0;}
 #main02 .main2 .title span{bottom: -30px; right: 20px; font-size: 14px;}
@@ -378,17 +378,20 @@ header .gnb > ul ul{padding: 0; top: 50px;}
     position: static;
 }
 #main02 .main2 .right-news .box1-text{font-size: 15px; padding: 0 20px;}
+#main02 .main2 .right-news .box1-text .title{font-size: 16px;}
+#main02 .main2 .right-news .box1-text .text{font-size: 14px;}
 #main02 .main2 .right-news .box1-text .text br{display: none;}
-#main02 .main2 .right-news .box1-text .date{font-size: 14px;}
+#main02 .main2 .right-news .box1-text .date{font-size: 12px;}
 #main02 .main2 .left-news{padding: 0 10px; box-sizing: border-box; width: 100%;}
+#main02 .main2 .left-news img{width: 130px; height: 130px;}
 #main02 .main2 .left-news .box1-text{
     position: absolute;
     top: 15%; left: 32%; 
-    font-size: 15px;
+    font-size: 14px;
 }
-#main02 .main2 .left-news .box1-text .title{font-size: 18px;}
+#main02 .main2 .left-news .box1-text .title{font-size: 16px;}
 #main02 .main2 .left-news .box1-text .text{font-size: 14px;}
-#main02 .main2 .left-news .box1-text .date{font-size: 13px;}
+#main02 .main2 .left-news .box1-text .date{font-size: 12px;}
 
 
 #main03{padding: 70px 0;}
@@ -408,11 +411,12 @@ header .gnb > ul ul{padding: 0; top: 50px;}
     height: 36px;
     font-size: 12px; 
     text-align: center;
+    top: 40%;
 }
 
 footer{padding: 43px 20px;}
 footer .footlogo img{width: 110px; height: auto;}
-footer .text{padding: 50px 0 0 28px;}
+footer .text{padding: 50px 0 0 20px;}
 footer .foot01 ul li {
     padding-left: 15px; 
     position: relative;

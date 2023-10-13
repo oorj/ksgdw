@@ -151,7 +151,7 @@ header .m-lng li:first-child::after{
     right: 320px; top: 19px;
     display: block;
 }
-.m-wish button{border: none; background: none;}
+.m-wish button{border: none; background: none; display: none;}
 .m-wish span{
     position: absolute;
     top: -5px; right: -3px;

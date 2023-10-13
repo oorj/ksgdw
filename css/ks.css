@@ -182,6 +182,7 @@ header .util .wish span{
     text-align: center;
     color: white;
 }
+.m-gnb{display: none;}
 .m-wish{display: none;}
 .m-logo{display: none;}
 header .util .wish img{width: 30px; height: 30px;}

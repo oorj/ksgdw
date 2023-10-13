@@ -94,16 +94,42 @@ $(function(){
 })
 
 $(function(){
-    $('.mob .mobile').on('click', function(){
-        $('.m-gnb').toggleClass('on')
+    $('.mobile').on('click', function(){
+        $('.mob').addClass('on')
+        $(this).addClass('on')
+        $('.m-gnb').addClass('on')
+        $('.logo').addClass('on')
     })
-    $('.m-gnb > ul > li').on('click', function(){
-        $(this).children('.m-gnb > ul > li > .m-sub').slideToggle()
-        $(this).siblings().children('.m-sub').stop().slideUp()
+    
+    $('.close').on('click', function(){
+        $('.m-gnb').removeClass('on')
+        $(this).removeClass('on')
+        $('.mobile').removeClass('on')
+        $('.lng').removeClass('on')
+        $('.heart').removeClass('on')
+        $('.mobile-se').removeClass('on')
     })
+})
+/* 사이드메뉴 */
+$(function(){
+    $('.m-gnb-first > li > a').on('click', function(){
+        $(this).next($('.m-sub')).slideToggle('fast');
+    })
+    $('.m-sub > li > a').click(function(e){
+        e.stopPropagation();
+        $(this).next($('.m-sub02')).slideToggle('fast');
+        $(this).css('background-color', '#eeebe4')
+      })
+
+
+
+   /*  $('.snd_menu > li > a').click(function(e){
+        e.stopPropagation();
+        $(this).next($('.trd_menu')).slideToggle('fast');
+      })
     $('.m-sub > li').on('click', function(){
         $('.m-sub02').toggleClass('on')
         $(this).siblings().children().removeClass('on')
-    })
+    }) */
 })
 

@@ -125,7 +125,7 @@ header .gnb > ul > li > a{
 .m-lng{
     position: absolute;
     top: 28px;
-    left: 30%;
+    left: 35%;
     transform: translateY(-50%);
     z-index: 3;
 }
@@ -135,7 +135,7 @@ header .m-lng li{
     margin-left: 20px; 
     color: #828080; 
     font-weight: 700;
-    font-size: 12px;
+    font-size: 	0.750em;
     font-family: 'Maven Pro', sans-serif;
 }
 header .m-lng li:first-child::after{
@@ -162,7 +162,7 @@ header .m-lng li:first-child::after{
     padding: 0 6px;
     text-align: center;
     color: white;
-    font-size: 14px;
+    font-size: 0.875em;
 }
 .m-wish img{width: 20px; height: 20px;}
 .m-gnb{
@@ -289,7 +289,7 @@ header .gnb > ul ul{padding: 0; top: 50px;}
 .swiper-slide .sw-text span{padding: 8px 0; font-size: 1.38em;}
 .swiper-slide .sw-text .tag{margin-bottom: 20px; font-size: 0.88em;}
 .swiper-button-next{display: none;}
-.main .title02{font-size: 40px;}
+.main .title02{font-size: 2.857em}
 
 .brand{max-width: 100%;}
 .brand .name{margin: 0;}
@@ -305,7 +305,7 @@ header .gnb > ul ul{padding: 0; top: 50px;}
 .brand .name > li > ul{margin-left: 175px;}
 .brand .name > li > ul > li{
     float: left;
-    font-size: 15px;
+    font-size: 0.875em;
     padding: 0;
     margin-right: 20px;
 }
@@ -314,14 +314,14 @@ header .gnb > ul ul{padding: 0; top: 50px;}
 .brand .name > li > ul > li:first-child{margin-left: 0;}
 .brand .name > li > ul > li a{display: inline;}
 .brand .name > li > .hap li:first-child{margin-left: 0; padding-right: 25px;}
-
+#main01 .title02{font-size: 2.500em;}
 #main01 .tab ul{display: block;}
 #main01 .tab ul li{width: 100%;}
 #main01 .tab > ul > li > button{font-size: 1.250em;}
 #main01 .tab .tab_nav > li .tab_nav{display: flex; flex-direction: row; margin-bottom: 60px;}
 #main01 .tab .tab_nav > li .tab_nav{margin-left: 30px;}
-#main01 .tab .tab_nav > li .tab_nav li{font-size: 16px; width: 180px;}
-.tab_nav > li .tab_nav:nth-child(2){margin-left: 20px !important;}
+#main01 .tab .tab_nav > li .tab_nav li{font-size: 1.00em; width: 180px;}
+.tab_nav > li .tab_nav:nth-child(2){margin-left: 10px !important;}
 .tab > ul > li ul li button{font-size: 1.125em;}
 #main01 .view{margin-top: 80px;}
 #main01 .view .left img{max-width: 100%; height: 580px;}
@@ -338,9 +338,9 @@ header .gnb > ul ul{padding: 0; top: 50px;}
     height: 95px;
     margin-right: 8px;
 }
-#main01 .view .right .text h2{font-size: 35px;}
+#main01 .view .right .text h2{font-size: 2.500em;}
 #main01 .view .right .text strong{
-    font-size: 28px; 
+    font-size: 2.000em; 
     margin: 10px 0;
 }
 #main01 .left .swiper-horizontal{width: 600px;}
@@ -355,17 +355,17 @@ header .gnb > ul ul{padding: 0; top: 50px;}
 #main .title02{font-size: 2.500em;}
 .tab_content .right h2{
     padding: 0;
-    font-size: 30px;
+    font-size: 2.143em;
     display: inline-block;
 }
-.tab_content .right h3{font-size: 24px;}
-.tab_content .right p{font-size: 16px;}
+.tab_content .right h3{font-size: 1.500em;}
+.tab_content .right p{font-size: 1.00em;}
 .tab_content .right ul li img{width: 100px; height: 100px; margin-right: 10px;}
 .tab_content .right ul li span{font-size: 0.875em;}
-.tab_content .right .more{right: 170px; bottom: -25px; }
-.tab_content .right .more a{font-size: 0.875em; display: block;}
-#main01 .view .right .text span{font-size: 18px;}
-#main01 .view .right .text p{font-size: 18px; margin: 15px 0;}
+.tab_content .right .more{right: 220px; bottom: -25px;}
+.tab_content .right .more a{font-size: 	0.750em; display: block;}
+#main01 .view .right .text span{font-size: 	1.125em;}
+#main01 .view .right .text p{font-size: 1.125em; margin: 15px 0;}
 #main01 .view .right .color p{font-size: 0.875em;}
 #main01 .view .more{bottom: -2%; right: 20px; font-size: 0.875em;}
 
@@ -382,7 +382,7 @@ header .gnb > ul ul{padding: 0; top: 50px;}
     margin-top: 50px;
     position: static;
 }
-#main02 .main2 .right-news .box1-text{font-size: 15px; padding: 0 20px;}
+#main02 .main2 .right-news .box1-text{font-size: 0.938em; padding: 0 20px;}
 #main02 .main2 .right-news .box1-text .title{font-size: 1em}
 #main02 .main2 .right-news .box1-text .text{font-size: 0.875em;}
 #main02 .main2 .right-news .box1-text .text br{display: none;}
@@ -392,11 +392,11 @@ header .gnb > ul ul{padding: 0; top: 50px;}
 #main02 .main2 .left-news .box1-text{
     position: absolute;
     top: 15%; left: 34%; 
-    font-size: 14px;
+    font-size: 0.875em;
 }
-#main02 .main2 .left-news .box1-text .title{font-size: 1.000em}
-#main02 .main2 .left-news .box1-text .text{font-size: 0.875em; }
-#main02 .main2 .left-news .box1-text .date{font-size: 0.750em}
+#main02 .main2 .left-news .box1-text .title{font-size: 	0.875em;}
+#main02 .main2 .left-news .box1-text .text{font-size: 0.750em;}
+#main02 .main2 .left-news .box1-text .date{font-size: 	0.625em;}
 .box1-text .text br{
     display: inline-block;
     content: " ";
@@ -405,10 +405,10 @@ header .gnb > ul ul{padding: 0; top: 50px;}
 
 #main03{padding: 70px 0;}
 #main03 .sns .title h2{font-size: 2.500em;}
-#main03 .sns .title p{font-size: 16px;}
-#main03 .sns .title .side{font-size: 14px; margin-top: 25px; padding-right: 10px;}
+#main03 .sns .title p{font-size: 1.0em;}
+#main03 .sns .title .side{font-size: 0.875em; margin-top: 25px; padding-right: 10px;}
 #main03 .sns .title .side img{margin-top: 25px;}
-#main03 .sns .title .side span a{font-size: 14px; padding: 3px 8px;}
+#main03 .sns .title .side span a{font-size: 0.875em; padding: 3px 8px;}
 #main03 .roomg ul li img{width: 100%; height: 100%;}
 #main03 .room ul li{
     width: calc(100%/2 - 20px);
@@ -418,7 +418,7 @@ header .gnb > ul ul{padding: 0; top: 50px;}
 #main03 .room ul li .stext{
     width: 100%;
     height: 36px;
-    font-size: 12px; 
+    font-size: 0.750em; 
     text-align: center;
     top: 40%;
 }
@@ -429,13 +429,13 @@ footer .text{padding: 50px 0 0 20px;}
 footer .foot01 ul li {
     padding-left: 15px; 
     position: relative;
-    font-size: 14px;
+    font-size: 0.875em;
 }
-footer .foot02{font-size: 12px;}
+footer .foot02{font-size: 0.750em;}
 footer .foot02 .copy{padding-top: 8px;}
-footer .foot03{font-size: 13px; padding: 5px; float: right;}
+footer .foot03{font-size: 0.750em; padding: 5px; float: right;}
 footer .foot03 p{display: inline-block; right: 0;}
-footer .foot03 p a{font-size: 13px;  position: static; padding-top: 5px;}
+footer .foot03 p a{font-size: 0.750em;  position: static; padding-top: 5px;}
 .foot03 .modal button{right: 16px;}
 .foot03 .modal button img{width: 28px; height: 28px; right: 0;}
 .foot03 .fa img{position: absolute; top: 15px; padding: 0;}

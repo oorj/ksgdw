@@ -27,8 +27,8 @@ header .inner{
 header .gnb{display: none;}
 header .lng{top: 32px;left: 28%; display: none;}
 header .lng.on{display: block;}
-header .lng li{font-size: 14px;}
-header .logo{margin-left: 20px; font-size: 14px; padding-top: 10px;}
+header .lng li{font-size: 0.875em;}
+header .logo{margin-left: 20px; font-size: 0.875em; padding-top: 10px;}
 header .logo a{width: 100px; height: 39px; margin: 0;}
 header .util{display: none;}
 header .mob {
@@ -271,7 +271,7 @@ header .gnb .depth1 .sub{background: #eeebe4; position: static;}
 header .gnb > ul ul{padding: 0; top: 50px;}
 .bg{display: none;}
 .bgGnb{display: none;} 
-.sw{height: 850px; width: 100%; margin-top: 60px;}
+.sw{/* height: 850px;  */width: 100%; margin-top: 60px;}
 .sw .swiper-wrapper .swiper-slide .sw-text {
     left: 0;
     top: 100px;
@@ -279,12 +279,15 @@ header .gnb > ul ul{padding: 0; top: 50px;}
     box-sizing: border-box;
     transform: none;
 }
-.sw .mySwiper{height: 90%;}
+.sw .mySwiper{height: 55vh}
 .swiper-wrapper .swiper-slide {
     max-width: 100%;
-    height: 575px;
+    height: auto;
+    /* height: 100px; */
 }
-
+.sw .swiper-wrapper .swiper-slide {
+    background-position: center bottom!important;
+}
 .swiper-slide .sw-text .title{font-size: 3.13em;}
 .swiper-slide .sw-text span{padding: 8px 0; font-size: 1.38em;}
 .swiper-slide .sw-text .tag{margin-bottom: 20px; font-size: 0.88em;}
@@ -382,7 +385,7 @@ header .gnb > ul ul{padding: 0; top: 50px;}
     margin-top: 50px;
     position: static;
 }
-#main02 .main2 .right-news .box1-text{font-size: 0.938em; padding: 0 20px;}
+#main02 .main2 .right-news .box1-text{padding: 0 20px;}
 #main02 .main2 .right-news .box1-text .title{font-size: 1em}
 #main02 .main2 .right-news .box1-text .text{font-size: 0.875em;}
 #main02 .main2 .right-news .box1-text .text br{display: none;}
@@ -391,12 +394,14 @@ header .gnb > ul ul{padding: 0; top: 50px;}
 #main02 .main2 .left-news img{width: 110px; height: 110px;}
 #main02 .main2 .left-news .box1-text{
     position: absolute;
-    top: 15%; left: 34%; 
+    top: 15%;;
     font-size: 0.875em;
+    height: 90px;
 }
-#main02 .main2 .left-news .box1-text .title{font-size: 	0.875em;}
-#main02 .main2 .left-news .box1-text .text{font-size: 0.750em;}
-#main02 .main2 .left-news .box1-text .date{font-size: 	0.625em;}
+#main02 .main2 .left-news .box1-text .title{font-size: 	1.15em}
+#main02 .main2 .left-news .box1-text .text{font-size: 1em;}
+#main02 .main2 .left-news .box1-text .date{font-size: 1em;}
+#main02 .main2 .left-news .box1 span{margin-top: 30px;}
 .box1-text .text br{
     display: inline-block;
     content: " ";
@@ -439,3 +444,22 @@ footer .foot03 p a{font-size: 0.750em;  position: static; padding-top: 5px;}
 .foot03 .modal button{right: 16px;}
 .foot03 .modal button img{width: 28px; height: 28px; right: 0;}
 .foot03 .fa img{position: absolute; top: 15px; padding: 0;}
+
+@media screen and (max-width: 451px) {
+    #main02 .main2 .left-news .box1-text{left: 30%;}
+    #main02 .main2 .left-news .box1-text .text{
+        overflow: hidden;
+        text-overflow: ellipsis;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+        display: -webkit-box;
+    }
+    #main02 .main2 .left-news .box1-text .text{font-size: 1em; margin: 5px 0;}
+    #main02 .main2 .left-news .box1-text{width: 250px;}
+    #main02 .main2 .left-news .box1-text .title{
+        white-space: nowrap; 
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+    #main02 .main2 .left-news .box1 .box1-text span{margin-top: 20px;}
+}

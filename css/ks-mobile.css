@@ -428,7 +428,7 @@ header .gnb > ul ul{padding: 0; top: 50px;}
     top: 40%;
 }
 
-footer{padding: 43px 20px;}
+footer{padding: 20px;}
 footer .footlogo img{width: 110px; height: auto;}
 footer .text{padding: 50px 0 0 20px;}
 footer .foot01 ul li {
@@ -446,7 +446,7 @@ footer .foot03 p a{font-size: 0.750em;  position: static; padding-top: 5px;}
 .foot03 .fa img{position: absolute; top: 15px; padding: 0;}
 
 @media screen and (max-width: 451px) {
-    #main02 .main2 .left-news .box1-text{left: 30%;}
+    #main02 .main2 .left-news .box1-text{left: 35%;}
     #main02 .main2 .left-news .box1-text .text{
         overflow: hidden;
         text-overflow: ellipsis;

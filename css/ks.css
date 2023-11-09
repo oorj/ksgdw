@@ -89,7 +89,7 @@ header .gnb > ul > li:hover > a::before{width: 50%;}
 header .gnb > ul > li > a{
     display: block;
     position: relative;
-    padding: 0 30px;
+    padding: 0 35px;
     font-size: 1.125rem;
     line-height: 100px;
     color: #000;

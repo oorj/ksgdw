@@ -89,7 +89,7 @@ header .gnb > ul > li:hover > a::before{width: 50%;}
 header .gnb > ul > li > a{
     display: block;
     position: relative;
-    padding: 0 35px;
+    padding: 0 30px;
     font-size: 1.125rem;
     line-height: 100px;
     color: #000;
@@ -372,7 +372,7 @@ header .util .wish img{width: 30px; height: 30px;}
     border: none;
     background: none;
     font-size: 20px;
-    color: #111;
+    color: #bebebe;
     font-weight: 400;
     padding-top: 15px;
 }
